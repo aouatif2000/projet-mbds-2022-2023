@@ -3,6 +3,8 @@ package mbds_grails_22_23
 class User {
 
     String username
+    
+    String pass
 
     static hasMany = [roles: Role]
 
