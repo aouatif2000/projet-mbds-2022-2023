@@ -2,7 +2,7 @@
 grails:
     profile: web
     codegen:
-        defaultPackage: mbds_grails_22_23
+        defaultPackage: com.mbds.grails
     gorm:
         reactor:
             # Whether to translate GORM events into Reactor events
@@ -128,3 +128,7 @@ environments:
                 defaultTransactionIsolation: 2 # TRANSACTION_READ_COMMITTED
 server:
     port: 8081
+    
+illustrations:
+    basePath: C:/Users/gregg/IdeaProjects/mbds-grails-22-23/grails-app/assets/images/
+    baseUrl: http://localhost:8081/assets/
